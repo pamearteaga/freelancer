@@ -1,3 +1,566 @@
+
+/* import fuentes  */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:300,400,500,600,700,800,900');
+
 /*
- * Estilos de tu proyecto
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+
+azul oscuro #2c3e50
+
+verde #18bc9c
+
+azul + oscuro (tipografia)  #212529
+
  */
+
+ body{
+
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+
+
+h1, h3{
+      
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+
+h2, p{
+   
+   font-family: 'Lato', sans-serif;
+
+ }
+
+
+ a{
+
+     text-decoration: none;
+ }
+
+
+ /* menu  */
+
+
+header{
+      
+      width: 100%;
+      height: auto;
+ 	  background-color: #2c3e50;
+ 	  padding: 10px 6%;
+ 	  font-family: 'Montserrat', sans-serif;
+ 	  font-weight: 800;
+ 	  text-transform: uppercase;
+ 	  color: white;
+ 	  position: fixed;
+ 	  top: 0;
+
+
+ }
+
+header a{
+      
+      color:white;
+
+ }
+
+header a:hover{
+      
+      color: #18bc9c;
+ }
+
+
+header a:hover h1{
+      
+      color: white;
+ }
+
+header h1{
+      
+      margin-left: 10px;
+
+ }
+
+
+nav{
+
+	position: fixed;
+	top:10px;
+	left: 66%;
+
+}
+
+
+
+ul{
+
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: ;
+
+
+}
+
+
+
+
+li{
+
+   display: inline-block;
+   margin: 15px 10px;
+   letter-spacing: 0.05em;
+
+ }
+
+
+
+
+ /**********  secciones *********/
+
+
+ section{
+
+    width: 100%;
+    height: auto;
+    
+
+ }
+
+
+/* estrella */
+
+
+.white hr {
+
+   width: 250px;
+   background-color: white;
+   height: 5px;
+   border: 0;
+   margin-bottom: -5px;
+
+   
+ }
+
+
+ .white .fa-star{
+
+ 	background-color: #18bc9c;
+ 	padding: 6px;
+ 
+ }
+
+.blue hr {
+
+   width: 250px;
+   background-color: #2c3e50;
+   height: 5px;
+   border: 0;
+   margin-bottom: -5px;
+
+   
+ }
+
+
+
+.blue .fa-star{
+
+ 	background-color: white;
+ 	color: #2c3e50;
+ 	padding: 6px;
+
+
+ 
+ }
+
+.star .fa {
+
+	font-size: 35px;
+    text-align: center;
+    margin-top: -60px;
+}
+
+
+
+
+ /*  home  */
+
+
+#home{
+    
+    margin-top: 101px; 
+    background-color: #18bc9c;
+    color: white;
+    text-align: center;
+    padding: 7% 0;
+
+
+}
+
+
+#home h1{
+    
+    font-weight: 700;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 3%;
+
+
+}
+
+
+
+#home h2{
+    
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.01em;
+    margin-top: 1%;
+    margin-bottom: 0;
+
+}
+
+
+ /*  portfolio  */
+
+
+#portfolio{
+    
+    
+    background-color: white;
+    text-align: center;
+    padding: 5.5% 0;
+
+
+}
+
+
+ #portfolio h3{
+    
+    font-weight: 700;
+    font-size: 48px;
+    color: #212529;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#portfolio a img{
+    
+   width: 27%;
+   height: auto;
+   display: inline-block;
+   margin: 13px;
+
+}
+
+
+ /*  about  */
+ 
+#about{
+    
+ 
+    background-color: #18bc9c;
+    color: white;
+    text-align: center;
+    padding: 5.5% 0;
+
+
+}
+
+
+#about h3{
+    
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+
+
+#about p{
+    
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin: 0;
+    line-height: 1.5em;
+
+}
+
+.text{
+
+	width: 27%;
+	height: auto;
+	display: inline-block;
+	margin: 10px 15px;
+}
+
+
+.boton{
+
+	margin-top: 5%;
+
+
+}
+
+#about a{
+    
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px 20px;
+    border: 2px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#about a:hover{
+    
+    
+    color: #18bc9c;
+    text-align: center;
+    background-color: white;
+    border: 2px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+
+ /*  contact  */
+
+
+ #contact{
+    
+    
+    background-color: white;
+    
+    padding: 5.5% 0;
+
+
+}
+
+#contact h3{
+    
+    font-weight: 700;
+    font-size: 48px;
+    color: #212529;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+
+form{
+
+	width: 58%;
+	height: auto;
+	margin-left: 20%;
+
+}
+
+input, textarea {
+
+    width: 100%;
+    padding: 12px 20px 35px 0;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    color: #858e95;
+
+}
+
+
+button{
+
+    padding: 12px 18px;
+    margin-top: 20px;
+    background-color: #18bc9c;
+    border: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+button:hover{
+
+    background-color: teal;
+    
+}
+
+ /*  footer  */
+
+footer{
+    
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 4% 0 2.2%;
+}
+
+
+
+
+footer h3{
+    
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10%;
+
+  
+}
+
+footer p{
+    
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    line-height: 1.5em;
+  
+}
+
+
+
+footer a{
+    
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0 3px;
+    border: 2px solid white;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+
+footer a:hover{
+    
+    color: #18bc9c;
+    background-color: white;
+  
+}
+
+
+
+.fa-facebook{
+
+	padding-left:18px;
+	padding-right:18px;
+
+} 
+
+
+.fa-google-plus{
+
+	padding: 12px 10px;
+
+} 
+
+.fa-twitter{
+
+	padding-left:14px;
+	padding-right:14px;
+
+} 
+
+.fa-linkedin{
+
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.fa-dribbble{
+
+	padding-left:15px;
+	padding-right:15px;
+
+}
+
+
+
+span{
+
+	color:#18bc9c;
+
+}
+
+.col{
+
+   width: 27%;
+   height: auto;
+   display: inline-block;
+   vertical-align: text-top;
+   margin: 0 1%;
+  
+   
+}
+
+.col:nth-child(2){
+
+   margin-right: 3%;
+}
+
+
+.colofon{
+
+	 margin-top: 6%;
+}
+
+
+.colofon p {
+
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    line-height: 1.5em;
+
+}
+
