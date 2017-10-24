@@ -1,4 +1,4 @@
-#Replica Freelancer
+<h1>Replica Freelancer</h1>
 
 *Por: Pamela Arteaga*
 
@@ -6,7 +6,7 @@
 - **Íconos:** Descargados en `fontawesome.io`, con link en el archivo `html`.
 - **Favicon:** Generado en `www.favicomatic.com`, con link en el archivo `html`.
 
-##Sección Header
+<h2>Sección Header</h2>
 
 **Posición header:** se utilizó `position:fixed;` para que se mantuviera en la parte superior de la web sin importar la sección.
 
@@ -15,7 +15,7 @@
 **Navegador:** Se utilizó `<ul>, <li>` y `<a>`.
 
 
-##Secciones Inferiores
+<h2>Secciones Inferiores</h2>
 
 **Padding:** se utilizó `padding: 5.5% 0;` para separar el contenido de los bordes y centrar.
 
